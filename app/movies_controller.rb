@@ -33,6 +33,7 @@ def can_be_created_in_a_block(args= {title: "Home Alone", release_date: 1990})
     movie.title = args[0]
     movie.release_date = args[1]
   end
+  
 end
 
 def can_get_the_first_item_in_the_database
